@@ -1,0 +1,74 @@
+.section-profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    width:25vw;
+    position: absolute;
+}
+
+.profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.profile-image{
+    width: 8rem;
+    height: 8rem;
+    border: .25rem solid var(--base-color);
+    border-radius: 4.25rem;
+}
+
+.name{
+    margin-top: .75rem;
+    font: 700 var(--title-font-size) var(--family-font) ;    
+}
+
+.occupation{
+    font: 400 var(--subtitle-font-size) var(--family-font);
+    margin-top: .35rem;   
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 1.25rem;
+}
+
+.contact-icons{
+    color: var(--subtitle-color);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contact-icons:hover,
+.subtitle:hover{
+    color: seagreen;
+}
+
+.subtitle{
+    font: 700 var(--subtitle-font-size) var(--family-font) ;
+    color: var(--subtitle-color);
+    cursor: text;
+}
+
+
+
+@media only screen and (max-width: 545px){
+
+}

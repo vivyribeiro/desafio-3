@@ -1,0 +1,33 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.tab-list {
+    display: flex;
+    width: 35%;
+    height: 2.5rem;
+    justify-content: center;
+    background-color: var(--base-color-second);
+    border-radius: .5rem;
+}
+
+.tab-btn{
+    font: 700 var(--subtitle-font-size) var(--family-font);
+    color: hsl(0deg 0% 0% / 56%);
+    border: none;
+    border-radius: .35rem;
+    background-color: transparent;
+    width: 100%;
+}
+
+.tab-btn:hover{
+    background-color: var(--base-color-alt);
+}
+
+.tab-btn:active{
+    color: var(--title-color);
+    background-color: var(--subtitle-color);
+}

@@ -1,0 +1,146 @@
+.section-cards{
+    display: flex;
+    padding: 3rem 1.5rem;
+}
+
+.cards-tecnologys,
+.cards-hobbies,
+.cards-movies{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+}
+
+
+/* .html-css{
+    background-image: url("https://i.imgur.com/FGxeSQJ.jpg");
+}
+
+.javascript{
+    background-image: url("https://i.imgur.com/sijBHKl.png");
+}
+
+.reactjs{
+    background-image: url("https://i.imgur.com/2sGmE9t.png");
+}
+
+.nodejs{
+    background-image: url("https://i.imgur.com/af4X4aZ.jpg");
+}
+
+.netflix{
+    background-image: url("http://www.tribunadeituverava.com.br/wp-content/uploads/2020/10/seo-watch-free-link-preview.jpg");
+}
+
+.youtube{
+    background-image: url("https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/08/escola-brasileira-de-games-Canais-de-sobre-Desenvolvimento-de-Games-1024x576.jpg");
+}
+
+.spotify{
+    background-image: url("https://focala.com.br/media/posts/6300/confira-as-10-musicas-mais-ouvidas-nas-paradas-do-spotify-no-brasil-16094169539971.jpg");
+}
+
+.ted-talks{
+    background-image: url("https://masterclass.ted.com/static/4ec0a4b5c98da46bb6843cca8d33b744/ee604/TEDSpeakeronstage.png");
+}
+
+.inception{
+    background-image: url("https://i.ibb.co/KNPnQBp/critica-a-origem-162613.jpg");
+}
+
+.minority-report{
+    background-image: url("https://img.ibxk.com.br/2017/05/12/12155007989201.jpg");
+}
+
+.dear-comrade{
+    background-image: url("https://images.odishatv.in/uploadimage/library/16_9/16_9_0/IMAGE_1627282020.jpg");
+}
+
+.the-help{
+    background-image: url("https://entreterse.com.br/wp-content/uploads/2020/05/Hist%C3%B3rias-Cruzadas-1.png");
+} */
+
+
+
+.html-css,
+.javascript,
+.reactjs,
+.nodejs,
+.netflix,
+.youtube,
+.spotify,
+.ted-talks,
+.inception,
+.minority-report,
+.dear-comrade,
+.the-help{
+    width: 20vw;
+    height: 14rem;
+    background-size: auto 14rem;
+    background-position: center;
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--base-color);
+    transition: transform .2s ease-in-out ;
+    animation: fadeInUp .6s;
+}
+
+.html-css:hover,
+.javascript:hover,
+.reactjs:hover,
+.nodejs:hover,
+.netflix:hover,
+.youtube:hover,
+.spotify:hover,
+.ted-talks:hover,
+.inception:hover,
+.minority-report:hover,
+.dear-comrade:hover,
+.the-help:hover{
+    opacity: 0.8;
+    transform: translateY(-10px);
+    transition-duration: .2s;
+}
+
+/* .html-css:hover,
+.javascript:hover,
+.reactjs:hover,
+.nodejs:hover,
+.netflix:hover,
+.youtube:hover,
+.spotify:hover,
+.ted-talks:hover,
+.inception:hover,
+.minority-report:hover,
+.dear-comrade:hover,
+.the-help:hover:after {
+    box-shadow: linear-gradient(transparent,rgba(0,0,0,.6) 80%,rgba(0,0,0,.9));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+} */
+
+/* @keyframes fadeInUp {
+    0% {
+      opacity:0;
+      transform:translateY(30px)
+    }
+    100% {
+      opacity:1;
+      transform:translateY(0);
+    }
+  } */
+
+.title{
+    text-align: center;
+    font: 700 var(--title-font-size) var(--family-font);
+    color: var(--title-color);
+    margin-top: 11rem;
+    /* position: absolute; */
+}
+
