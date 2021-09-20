@@ -1,7 +1,7 @@
 import React from "react";
 import './profile-section.css'
 import { portifolio } from "../data";
-import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
+// import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
 
 
 function Profile() {
@@ -15,15 +15,15 @@ function Profile() {
               </div>
               <div className="contact">
                 <a href="https://github.com/vivyribeiro" className="contact-links"> 
-                    < FaGithubSquare className="contact-icons" />
+                    {/* < FaGithubSquare className="contact-icons" /> */}
                     <span className="subtitle">Github</span>
                 </a>
                 <a href="https://www.linkedin.com/in/vivyribeiro" className="contact-links"> 
-                    < FaLinkedin className="contact-icons" />
+                    {/* < FaLinkedin className="contact-icons" /> */}
                     <span className="subtitle">Linkedin</span>
                 </a>
                 <a href="mailto:vivy.saribeiro@gmail.com" className="contact-links"> 
-                    < FaEnvelopeSquare className="contact-icons" />
+                    {/* < FaEnvelopeSquare className="contact-icons" /> */}
                     <span className="subtitle">E-mail</span>
                 </a>
               </div>
