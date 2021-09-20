@@ -3,6 +3,7 @@
     padding: 1.5rem;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 10rem;
 }
 
 .cards{
@@ -11,6 +12,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     justify-items: center;
+    margin-bottom: 10rem;
 }
 
 .tab-list {
