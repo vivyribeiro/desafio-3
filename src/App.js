@@ -1,7 +1,6 @@
 import './App.css'
 import BackgroundSection from './components/background-section/background-section.js'
 import Cards from './components/tab-section/tab-section.js'
-// import {portifolio} from '../data'
 import { useState } from 'react'
 
 function App() {

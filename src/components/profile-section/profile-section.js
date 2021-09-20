@@ -2,7 +2,6 @@ import React from "react";
 import './profile-section.css'
 import { portifolio } from "../data";
 import { FaGithubSquare, FaLinkedin, FaEnvelopeSquare } from "react-icons/fa";
-// import ProfileImg from  '../../../public/profile_image.jpg'
 
 
 function Profile() {
