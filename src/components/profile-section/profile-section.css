@@ -47,7 +47,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
 }
 
 .contact-icons{
@@ -71,4 +71,11 @@
 
 @media only screen and (max-width: 545px){
 
+    .section-profile{
+        width: 100%;
+    }
+
+    .contact{
+        width: fit-content;
+    }
 }

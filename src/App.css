@@ -31,3 +31,48 @@
 html{
       overflow-x: hidden;
 }
+
+
+.tab-btn{
+  font: 700 var(--subtitle-font-size) var(--family-font);
+  color: hsl(0deg 0% 0% / 56%);
+  border: none;
+  border-radius: .35rem;
+  background-color: transparent;
+  width: 100%;
+}
+
+.tab-btn:hover{
+  background-color: var(--base-color-alt);
+}
+
+.active{
+  border-radius: .35rem;
+  color: var(--title-color);
+  background-color: var(--subtitle-color);
+}
+
+.section-tabs{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.scroll{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+  overflow-x: auto;
+  grid-column-gap: 1rem;
+  padding: 0 .5rem;
+}
+
+@media only screen and (max-width: 545px){
+
+  .scroll{
+    width: auto;
+    height: 5rem;
+  }
+}
