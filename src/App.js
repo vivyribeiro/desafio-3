@@ -11,9 +11,9 @@ function App() {
       <section className="section-tabs">
         <div className="tab-list">
           <div className="scroll">
-            <button className="tab-btn" onClick={()=> setIndice(0)} className= {indice === 0 ? " active" : "tab-btn" }>👩‍💻 Tecnologias</button>
-            <button className="tab-btn" onClick={()=> setIndice(1)} className= {indice === 1 ? " active" : "tab-btn" }>🧘🏼‍♀️ Hobbies</button>
-            <button className="tab-btn" onClick={()=> setIndice(2)} className= {indice === 2 ? " active" : "tab-btn" }>🎥 Top Filmes</button>
+            <button className="tab-btn" onClick={()=> setIndice(0)} className= {indice === 0 ? "tab-btn active" : "tab-btn" }>👩‍💻 Tecnologias</button>
+            <button className="tab-btn" onClick={()=> setIndice(1)} className= {indice === 1 ? "tab-btn active" : "tab-btn" }>🧘🏼‍♀️ Hobbies</button>
+            <button className="tab-btn" onClick={()=> setIndice(2)} className= {indice === 2 ? "tab-btn active" : "tab-btn" }>🎥 Top Filmes</button>
           </div>
         </div>
       </section>
